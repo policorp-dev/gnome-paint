@@ -1,0 +1,6934 @@
+From: Dominik Danelski <dominik@danelski.pl>
+Date: Fri, 3 Nov 2017 08:38:38 +0000
+Subject: Merged new translations
+
+mfrom: (89.1.2 translations)
+Revision ID: dominik@danelski.pl-20171103083838-ahbzlnk1nn3x3cvg
+
+Applied-Upstream: https://bazaar.launchpad.net/~gnome-paint-developers/gnome-paint/trunk/revision/90
+---
+ po/LINGUAS     |  24 +++++++++
+ po/af.po       | 130 ++++++++++++++++++++++++++++++++++++++++++++
+ po/ar.po       | 144 ++++++-------------------------------------------
+ po/bg.po       | 144 +++++++++++++++++++++++++++++++++++++++++++++++++
+ po/bs.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/ca.po       | 133 +++++++++++++++++++++++++++++++++++++++++++++
+ po/cs.po       | 149 +++++++--------------------------------------------
+ po/da.po       | 145 ++++++-------------------------------------------
+ po/de.po       | 147 +++++++-------------------------------------------
+ po/el.po       | 136 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/en_AU.po    | 130 ++++++++++++++++++++++++++++++++++++++++++++
+ po/en_GB.po    | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/eo.po       | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/es.po       | 148 +++++++-------------------------------------------
+ po/eu.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/fi.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/fr.po       | 150 ++++++---------------------------------------------
+ po/gl.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/he.po       | 166 +++++++++------------------------------------------------
+ po/hi.po       | 130 ++++++++++++++++++++++++++++++++++++++++++++
+ po/hr.po       | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/hu.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/it.po       | 157 ++++++++++-------------------------------------------
+ po/lt.po       | 136 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/ms.po       | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/nb.po       | 140 +++++-------------------------------------------
+ po/nl.po       | 137 +++++++++++++++++++++++++++++++++++++++++++++++
+ po/pl.po       |   4 +-
+ po/pt.po       | 152 +++++++---------------------------------------------
+ po/pt_BR.po    | 149 ++++++---------------------------------------------
+ po/ru.po       | 147 ++++++--------------------------------------------
+ po/si.po       | 133 +++++++++++++++++++++++++++++++++++++++++++++
+ po/sk.po       | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/sr.po       | 138 +++++++++++++++++++++++++++++++++++++++++++++++
+ po/sr@latin.po | 135 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/te.po       | 131 +++++++++++++++++++++++++++++++++++++++++++++
+ po/th.po       | 132 +++++++++++++++++++++++++++++++++++++++++++++
+ po/tr.po       | 144 ++++++-------------------------------------------
+ po/uk.po       | 134 ++++++++++++++++++++++++++++++++++++++++++++++
+ po/vi.po       | 162 +++++++++++--------------------------------------------
+ po/zh_CN.po    | 146 ++++++--------------------------------------------
+ po/zh_TW.po    | 155 +++++++++--------------------------------------------
+ 42 files changed, 3563 insertions(+), 2091 deletions(-)
+ create mode 100644 po/af.po
+ create mode 100644 po/bg.po
+ create mode 100644 po/bs.po
+ create mode 100644 po/ca.po
+ create mode 100644 po/el.po
+ create mode 100644 po/en_AU.po
+ create mode 100644 po/en_GB.po
+ create mode 100644 po/eo.po
+ create mode 100644 po/eu.po
+ create mode 100644 po/fi.po
+ create mode 100644 po/gl.po
+ create mode 100644 po/hi.po
+ create mode 100644 po/hr.po
+ create mode 100644 po/hu.po
+ create mode 100644 po/lt.po
+ create mode 100644 po/ms.po
+ create mode 100644 po/nl.po
+ create mode 100644 po/si.po
+ create mode 100644 po/sk.po
+ create mode 100644 po/sr.po
+ create mode 100644 po/sr@latin.po
+ create mode 100644 po/te.po
+ create mode 100644 po/th.po
+ create mode 100644 po/uk.po
+
+diff --git a/po/LINGUAS b/po/LINGUAS
+index 21b07e1..d9fd8f3 100644
+--- a/po/LINGUAS
++++ b/po/LINGUAS
+@@ -1,20 +1,44 @@
+ # please keep this list sorted alphabetically
+ #
++af
+ ar
++bg
++bs
++ca
+ cs
+ da
+ de
++el
++en_AU
++en_GB
++eo
+ es_MX
+ es
++eu
++fi
+ fr
++gl
+ he
++hi
++hr
++hu
+ it
++lt
++ms
+ nb
++nl
+ pl
+ pt_BR
+ pt
+ ru
++si
++sk
++sr@latin
++sr
++te
++th
+ tr
++uk
+ vi
+ zh_CN
+ zh_TW
+diff --git a/po/af.po b/po/af.po
+new file mode 100644
+index 0000000..6dc2b32
+--- /dev/null
++++ b/po/af.po
+@@ -0,0 +1,130 @@
++# Afrikaans translation for gnome-paint
++# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2013-04-28 14:00+0000\n"
++"Last-Translator: Geoffrey De Belie <Unknown>\n"
++"Language-Team: Afrikaans <af@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Maak en redigeer tekeninge of prente"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Kleur"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "R_edigeer"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Lêer"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Help"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Beeld"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Aansig"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Kies agtergrondkleur"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr ""
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Kies kleur"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr ""
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr ""
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Fout met laai van lêer \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "ongetiteld"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Fout tydens stoor van lêer \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "onbekende fout"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr ""
+diff --git a/po/ar.po b/po/ar.po
+index 3dda238..ee26b84 100644
+--- a/po/ar.po
++++ b/po/ar.po
+@@ -7,15 +7,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-11-27 11:36+0000\n"
+-"Last-Translator: xDev <Unknown>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: Arabic <ar@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -26,145 +26,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "محرر رسومات جنوم"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "س_نتيمتر"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "الأ_لوان"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "الألوان"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "المبدئيات"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "آخر وقت حُفظ فيه الملف:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "اقلب الرسم بشكل عموديّ"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "اقلب ودوّر"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "اقلب أو دوّر"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "أداة التحديد الحرّ"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "خصائص الصورة"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "غير متاح"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "الاستبانة:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "الحجم على القرص:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "وحدات القياس"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_الخصائص..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_أسود وأبيض"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "ا_محُ الصورة"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "ا_رسم بخطّ سميك"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr ""
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_حرِّر"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_ملف"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "ا_قلب أفقيًا"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "ا_قلب/دوّر..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "الارتفا_ع"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "م_ساعدة"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_صورة"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_بوصات"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_اعكس الألوان"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_بكسل"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_دوّر بقيمة زاوية"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "مدّد/اُحْرُف..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "ا_عرض"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "العر_ض"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "اختر لون الخلفية"
+@@ -173,7 +61,7 @@ msgstr "اختر لون الخلفية"
+ msgid "Select Foreground Color"
+ msgstr "اختر اللون الأمامي"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "اختر اللون..."
+ 
+@@ -209,11 +97,11 @@ msgstr "حدث خطأ أثناء حفظ الملف \"%s\""
+ msgid "unknown error"
+ msgstr "خطأ غير معروف"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "رسّام جنوم هو برنامج رسم سهل وبسيط لواجهة جنوم."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+diff --git a/po/bg.po b/po/bg.po
+new file mode 100644
+index 0000000..414686b
+--- /dev/null
++++ b/po/bg.po
+@@ -0,0 +1,144 @@
++# Bulgarian translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2012-04-22 14:19+0000\n"
++"Last-Translator: Ve4ernik <ve4ernik@gmail.com>\n"
++"Language-Team: Bulgarian <bg@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Създаване и редактиране на рисунки или изображения"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Редактор на рисунки Gnome Paint"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Инструмент свободно избиране"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Цвят"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Редактиране"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Файл"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Помощ"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Изображение"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Изглед"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Избор на цвят за фона"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Избор на преден цвят"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Избор на цвят"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Желаете ли да запазите направените промени в „%s“?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Ако не ги запазите, промените ви ще бъдат загубени."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Грешка при зареждане на файла „%s“"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "неозаглавено"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Грешка при запазване на файла „%s“"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "неизвестна грешка"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint е проста, лесна за използване програма за рисуване за ГНОМ."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"[English]\n"
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version. The license is freely available on the Internet at the address "
++"http://www.gnu.org/licenses/licenses.html.\n"
++"\n"
++"[български]\n"
++"Тази програма е свободен софтуер; можете да я разпространявате и/или "
++"модифицирате според условията на Общия публичен лиценз на ГНУ, както е "
++"публикуван от Фондацията за свободен софтуер, или версия 3 на лиценза, или "
++"(по ваш избор) която и да е по-нова версия. Лицензът е свободно достъпен в "
++"Интернет на адрес http://www.gnu.org/licenses/licenses.html.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Всички изображения"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Всички файлове"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Зареждане на изображение"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Запис на изображение"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Отваряне на папка"
+diff --git a/po/bs.po b/po/bs.po
+new file mode 100644
+index 0000000..c3637fe
+--- /dev/null
++++ b/po/bs.po
+@@ -0,0 +1,135 @@
++# Bosnian translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-06-24 11:46+0000\n"
++"Last-Translator: Stefan Ivanović <Unknown>\n"
++"Language-Team: Bosnian <bs@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Kreiraj i izmeni crteže i slike"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "GNOME Aplikacija Za Crtanje"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Slobodna selekcija"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Boja"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Uredi"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Datoteka"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Pomoć"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Slika"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Prikaz"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Izaberi boju pozadine"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Izaberi boju prvog plana"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Odaberi Boju"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Da li želite da sačuvate promene koje ste napravili sa \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Izmjene će biti izgubljene ako ih ne sačuvate."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Greška pri čitanju datoteke \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "Bezimeno"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Greška pri čuvanju datoteke \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "nepoznata greška"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint je jednostavan i lak za korišćenje program namjenjen za "
++"korišćenje u okruženju GNOME"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ova aplikacija je besplatna; možete je distribuirati i/ili modifikovati pod "
++"uslovima GNU GPL koja je izdata od strane Osnove Slobodnog Softvera, verzije "
++"3 ili novije.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Sve slike"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Sve datoteke"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Učitaj sliku"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Sačuvaj sliku"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Otvori direktorij"
+diff --git a/po/ca.po b/po/ca.po
+new file mode 100644
+index 0000000..8364685
+--- /dev/null
++++ b/po/ca.po
+@@ -0,0 +1,133 @@
++# Catalan translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-07-14 15:46+0000\n"
++"Last-Translator: Javier <Unknown>\n"
++"Language-Team: Catalan <ca@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Creeu i editeu dibuixos o imatges"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Editor de dibuixos GNOME Paint"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Eina de selecció lliure"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Color"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Edita"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Fitxer"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "A_juda"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Imatge"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Visualització"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Selecciona el color de fons"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Selecciona el color del primer pla"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Selecció de color"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Voleu desar els canvis del document \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Els vostres canvis es perdran si no els deseu"
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Error al carregar el fitxer \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "sense nom"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Error al desar el fitxer \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "Error desconegut"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint és un programa de dibuix simple i fàcil de fer servir."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Aquest programa és lliure; Es pot redistribuir i/o modificar en els termes "
++"de la GNU Llicència Pública General publicada per la Free Software "
++"Foundation, ja sigui la versió 3 o qualsevol de posterior.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Totes les imatges"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Tots els fitxers"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Carrega la imatge"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Desa la imatge"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Obre la carpeta"
+diff --git a/po/cs.po b/po/cs.po
+index d1ca415..cc3dcbb 100644
+--- a/po/cs.po
++++ b/po/cs.po
+@@ -7,14 +7,16 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint 0.4.1\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: 2010-12-18 16:01+0100\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 19:04+0000\n"
+ "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
+ "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
+-"Language: cs\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=utf-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: cs\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -25,145 +27,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Editor kreseb Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "c_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "_Barvy"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Barvy"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Výchozí"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Naposledy uložený soubor:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "_Překlopit svisle"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Překlopit a otočit"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Překlopit či otočit"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Nástroj libovolný výběr"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Vlastnosti obrázku"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Nedostupné"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Rozlišení:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Místo na disku:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Jednotky"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Vlastnosti..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "Č_erná a bílá"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Vymazat obrázek"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Kreslit neprůhledně"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Barva"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Upravit"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Soubor"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "Překlopit _vodorovně"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Překlopit/Otočit..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "Výš_ka"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Nápověda"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Obrázek"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Palce"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "P_rohodit barvy"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "Pi_xely"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "O_točit o"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "Roztá_hnout/Zkosit..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Zobrazit"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "Šířk_a"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Vybrat barvu pozadí"
+@@ -172,7 +62,7 @@ msgstr "Vybrat barvu pozadí"
+ msgid "Select Foreground Color"
+ msgstr "Vybrat barvu popředí"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Vybrat barvu"
+ 
+@@ -208,19 +98,20 @@ msgstr "Chyba při ukládání souboru \"%s\""
+ msgid "unknown error"
+ msgstr "neznámá chyba"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+-msgstr "gnome-paint je jednoduchý, snadno ovladatelný kreslící program pro GNOME."
++msgstr ""
++"gnome-paint je jednoduchý, snadno ovladatelný kreslící program pro GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+ "Software Foundation, either version 3, or (at your opinion) any later "
+ "version.\n"
+ msgstr ""
+-"Tento program je svobodný software; můžete jej šířit a nebo upravovat "
+-"za podmínek stanovených licencí GNU General Public License, vydanou Free "
++"Tento program je svobodný software; můžete jej šířit a nebo upravovat za "
++"podmínek stanovených licencí GNU General Public License, vydanou Free "
+ "Software Foundation, buď ve verzi 3, či (podle svého uvážení) kterékoli "
+ "pozdější verze.\n"
+ 
+diff --git a/po/da.po b/po/da.po
+index afc3ca1..d5c89b3 100644
+--- a/po/da.po
++++ b/po/da.po
+@@ -9,14 +9,16 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: 2010-12-14 17:34+0000\n"
+-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Joe Hansen <Unknown>\n"
+ "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+-"Language: da\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: da\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -27,145 +29,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Gnome Paint - tegneprogram"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "_Cm"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "_Farver"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Farver"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Standarder"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Fil sidst gemt:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Vend _lodret"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Vend og roter"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Vend eller roter"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Værktøj til fri markering"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Billedattributter"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Ikke tilgængelig"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Opløsning:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Størrelse på disk:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Enheder"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Attributter..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Sort og hvid"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Ryd billede"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Tegn uigennemsigtig"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Farve"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Rediger"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Fil"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Vend vandret"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Vend/roter..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Højde"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Hjælp"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Billede"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Tommer"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Inverter farver"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Billedpunkter"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Roter med vinkel"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Træk/skævgør..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Vis"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Bredde"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Vælg baggrundsfarve"
+@@ -174,7 +64,7 @@ msgstr "Vælg baggrundsfarve"
+ msgid "Select Foreground Color"
+ msgstr "Vælg forgrundsfarve"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Vælg farve"
+ 
+@@ -210,11 +100,11 @@ msgstr "Der opstod en fejl under gemning af fil »%s«"
+ msgid "unknown error"
+ msgstr "ukendt fejl"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint er et enkelt, nemt at bruge tegneprogram til GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+@@ -245,4 +135,3 @@ msgstr "Gem billede"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Åbn mappe"
+-
+diff --git a/po/de.po b/po/de.po
+index fe7f2f1..3ef9830 100644
+--- a/po/de.po
++++ b/po/de.po
+@@ -7,13 +7,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint 0.4.0-1\n"
+ "Report-Msgid-Bugs-To: Rogério Ferro do Nascimento <rogerioferro@gmail.com>\n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: 2010-04-26 19:11+0100\n"
+-"Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Chris Leick <Unknown>\n"
+ "Language-Team: Debian German <debian-l10n-german@lists.debian.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -24,145 +26,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Gnome-Paint Zeichnungs-Editor"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "F_arben"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Farben"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Vorgaben"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Zuletzt gespeicherte Datei:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "V_ertikal kippen"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Kippen und drehen"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Kippen oder drehen"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Freies Auswahlwerkzeug"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Bildattribute"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Nicht verfügbar"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Auflösung"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Größe auf der Platte:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Einheiten"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Attribute ..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Schwarz und weiß"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "Bild _löschen"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Undurchsichtig zeichnen"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Farbe"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Bearbeiten"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Datei"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "H_orizontal kippen"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_kippen/drehen ..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "H_öhe"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Hilfe"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "B_ild"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "Inch_es"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "Fa_rben invertieren"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "Bild_punkte"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "Drehen im _Winkel"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Ziehen/krümmen ..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "A_nsicht"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "Brei_te"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Hintergrundfarbe auswählen"
+@@ -171,14 +61,15 @@ msgstr "Hintergrundfarbe auswählen"
+ msgid "Select Foreground Color"
+ msgstr "Vordergrundfarbe auswählen"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Farbe auswählen"
+ 
+ #: ../src/file.c:98
+ #, c-format
+ msgid "Do you want to save the changes you made to \"%s\"?"
+-msgstr "Möchten Sie Änderungen, die Sie an »%s« vorgenommen haben, speichern?"
++msgstr ""
++"Möchten Sie Änderungen, die Sie an »%s« vorgenommen haben, speichern?"
+ 
+ #: ../src/file.c:102
+ msgid "Your changes will be lost if you don't save them."
+@@ -194,8 +85,8 @@ msgstr "Fehler beim Laden der Datei »%s«"
+ msgid "%s - gnome-paint"
+ msgstr "%s - Gnome-Paint"
+ 
+-#: ../src/file.c:313
+ # Fenstertext
++#: ../src/file.c:313
+ msgid "untitled"
+ msgstr "Ohne Titel"
+ 
+@@ -208,12 +99,12 @@ msgstr "Fehler beim Speichern der Datei »%s«"
+ msgid "unknown error"
+ msgstr "unbekannter Fehler"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr ""
+ "Gnome-Paint ist eine einfaches, leicht bedienbares Programm für GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+diff --git a/po/el.po b/po/el.po
+new file mode 100644
+index 0000000..25fabde
+--- /dev/null
++++ b/po/el.po
+@@ -0,0 +1,136 @@
++# Greek translation for gnome-paint
++# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2014-04-10 06:00+0000\n"
++"Last-Translator: krometis <Unknown>\n"
++"Language-Team: Greek <el@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Δημιουργία και επεξεργασία σχεδίων ή εικόνων"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Επεξεργασία Ζωγραφικής και Σχεδίου του GNOME"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Ελεύθερη επιλογή εργαλείου"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Χρώμα"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Επεξεργασία"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Αρχείο"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Βοήθεια"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Εικόνα"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Προβολή"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Επιλογή χρώματος παρασκηνίου"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Αλλαγή χρώματος προσκηνίου"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Επιλογή χρώματος"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Θέλετε να αποθηκεύσετε τις αλλαγές που κάνατε στο \"%s\";"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Οι αλλαγές σας θα χαθούν αν δεν τις αποθηκεύσετε."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Σφάλμα στη φόρτωση του αρχείου \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "χωρίς τίτλο"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Σφάλμα αποθήκευσης αρχείου \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "άγνωστο σφάλμα"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint είναι ένα απλό, εύκολο στη χρήση πρόγραμμα ζωγραφικής για το "
++"GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Αυτό το πρόγραμμα είναι ελεύθερο λογισμικό! Μπορείτε να το αναδιανείμετε  ή "
++"τροποποιήσετε κάτω από τους όρους της GNU General Public License όπως αυτή "
++"δημοσιεύεται από το Ίδρυμα Ελεύθερου Λογισμικού, είτε την έκδοση 3, ή (κατά "
++"τη γνώμη σας) οποιαδήποτε μεταγενέστερη έκδοση.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Όλες οι εικόνες"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Όλα τα Αρχεία"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Φόρτωση εικόνας"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Αποθήκευση εικόνας"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Άνοιγμα φακέλου"
+diff --git a/po/en_AU.po b/po/en_AU.po
+new file mode 100644
+index 0000000..c30911c
+--- /dev/null
++++ b/po/en_AU.po
+@@ -0,0 +1,130 @@
++# English (Australia) translation for gnome-paint
++# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2013-06-26 00:38+0000\n"
++"Last-Translator: Jackson Doak <noskcaj@ubuntu.com>\n"
++"Language-Team: English (Australia) <en_AU@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Create and Edit Drawings or Images"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint Drawing Editor"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Free select tool"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Colour"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Edit"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_File"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Help"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Image"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_View"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Select Background Colour"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr ""
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr ""
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr ""
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr ""
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr ""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr ""
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr ""
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr ""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr ""
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr ""
+diff --git a/po/en_GB.po b/po/en_GB.po
+new file mode 100644
+index 0000000..5e5960b
+--- /dev/null
++++ b/po/en_GB.po
+@@ -0,0 +1,134 @@
++# English (United Kingdom) translation for gnome-paint
++# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2014-04-07 23:20+0000\n"
++"Last-Translator: Anthony Harrington <Unknown>\n"
++"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Create and Edit Drawings or Images"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint Drawing Editor"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Free select tool"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Colour"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Edit"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_File"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Help"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Image"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_View"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Select Background Colour"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Select Foreground Colour"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Select Colour"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Do you want to save the changes you made to \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Your changes will be lost if you don't save them."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Error loading file \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "untitled"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Error saving file \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "unknown error"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint is a simple, easy to use paint program for GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "All Images"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "All Files"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Load Image"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Save Image"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Open Folder"
+diff --git a/po/eo.po b/po/eo.po
+new file mode 100644
+index 0000000..e137b62
+--- /dev/null
++++ b/po/eo.po
+@@ -0,0 +1,134 @@
++# Esperanto translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-04-29 13:51+0000\n"
++"Last-Translator: Michael Moroni <michaelmoroni@disroot.org>\n"
++"Language-Team: Esperanto <eo@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Krei kaj redakti desegnaĵojn aŭ bildojn"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "GNOME-desegnaĵredaktilo"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Libera elektilo"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "Koloro"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "R_edakti"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "Dosiero"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Helpo"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "B_ildo"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Vido"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Elekti fonkoloron"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Elekti malfonkoloron"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Elekti koloron"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Ĉu vi volas konservi la ŝanĝoin, kiujn vi faris, al \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Viaj ŝanĝoj perdiĝos se vi ne konservos ilin."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Eraro dum ŝargado de dosiero \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - GNOME-desegnaĵredaktilo"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "sentitola"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Eraro dum konservado de dosiero \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "nekonata eraro"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint estas simpla, facile uzebla pentradprogramaro por GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ĉi tiu  estas libera programaro; vi  povas  ĝin  pludistribui  kaj/aŭ modifi "
++" je la  kondiĉoj  de la  GNU Ĝenerala Publika Permesilo, eldonita de  Free "
++"Software  Foundation, laŭ la versio 3  de tiu permesilo aŭ, se vi preferas, "
++"ajna posta versio.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Ĉiuj bildoj"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Ĉiuj dosieroj"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Ŝargi bildon"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Konservi bildon"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Malfermi dosierujon"
+diff --git a/po/es.po b/po/es.po
+index 4dcd6d4..b5791e4 100644
+--- a/po/es.po
++++ b/po/es.po
+@@ -7,164 +7,52 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-11-29 13:53+0000\n"
+-"Last-Translator: Fitoschido <Unknown>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: Spanish <es@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+-msgstr "Crear y editar dibujos o imágenes"
++msgstr "Cree y edite dibujos o imágenes"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:2
+ msgid "Gnome Paint Drawing Editor"
+-msgstr "Editor de dibujo y pintura para GNOME"
++msgstr "Editor de dibujo y pintura de GNOME"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "Co_lores"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Colores"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Por defecto"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Archivo guardado por última vez:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Voltear _verticalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Voltear y girar"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Voltear o girar"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Herramienta de selección libre"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Atributos de imagen"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "No disponible"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Resolución:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Tamaño en disco:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Unidades"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Atributos..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Blanco y negro"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Limpiar imagen"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Dibujar en opaco"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Color"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Archivo"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Voltear horizontalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Voltear/girar..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Altura"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "Ay_uda"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Imagen"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Pulgadas"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Invertir colores"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Pixeles"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "Gi_rar por ángulo"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "E_stirar/sesgar..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Ver"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "A_ncho"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Seleccionar color de fondo"
+@@ -173,7 +61,7 @@ msgstr "Seleccionar color de fondo"
+ msgid "Select Foreground Color"
+ msgstr "Seleccionar color de primer plano"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Seleccionar color"
+ 
+@@ -209,12 +97,12 @@ msgstr "Ocurrió un error al guardar el archivo «%s»"
+ msgid "unknown error"
+ msgstr "error desconocido"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr ""
+ "gnome-paint es una aplicación de dibujo sencilla y fácil de usar para GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+diff --git a/po/eu.po b/po/eu.po
+new file mode 100644
+index 0000000..ca078b0
+--- /dev/null
++++ b/po/eu.po
+@@ -0,0 +1,135 @@
++# Basque translation for gnome-paint
++# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2014-04-25 22:23+0000\n"
++"Last-Translator: Ibai Oihanguren Sala <Unknown>\n"
++"Language-Team: Basque <eu@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Sortu eta editatu marrazkiak edo irudiak"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint marrazketa-editorea"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Hautapen librerako tresna"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Kolorea"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Editatu"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Fitxategia"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Laguntza"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "I_rudia"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Ikusi"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Hautatu atzeko planoaren kolorea"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Hautatu aurreko planoaren kolorea"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Hautatu kolorea"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "\"%s\" fitxategiari egindako aldaketak gorde nahi dituzu?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Aldaketak galdu egingo dira ez badituzu gordetzen."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Errorea \"%s\" fitxategia kargatzean"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "izengabea"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Errorea \"%s\" fitxategia gordetzean"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "errore ezezaguna"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint GNOMErako marrazketa programa sinplea eta erabilerraza da."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Programa hau software librea da; Free Software Foundation-ek argiratatutako "
++"GNU Lizentzia Publiko Orokorreko baldintzen arabera birbana eta/edo alda "
++"dezakezu, honen 3. bertsioa edo (nahi baduzu) bertsio berriago bat kontuan "
++"hartuta.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Irudi guztiak"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Fitxategi guztiak"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Kargatu irudia"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Gorde irudia"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Ireki karpeta"
+diff --git a/po/fi.po b/po/fi.po
+new file mode 100644
+index 0000000..61f6178
+--- /dev/null
++++ b/po/fi.po
+@@ -0,0 +1,135 @@
++# Finnish translation for gnome-paint
++# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-01-04 08:04+0000\n"
++"Last-Translator: Tomi Juntunen <Unknown>\n"
++"Language-Team: Finnish <fi@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Luo ja muokkaa piirustuksia ja kuvia"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint -piirustusohjelma"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Vapaavalinta"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Väri"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "M_uokkaa"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Tiedosto"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Ohje"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Kuva"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Näytä"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Valitse taustaväri"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Valitse edustaväri"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Valitse väri"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Haluatko tallentaa muutokset tiedostoon \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Tallentamattomat muutokset menetetään!"
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Virhe ladattaessa tiedostoa \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "nimetön"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Virhe tallennettaessa tiedostoa \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "tuntematon virhe"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint on yksinkertainen ja helppokäyttöinen GNOME-työpöytäympäristön "
++"piirrosohjelma."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Tämä on vapaa ohjelma: tätä ohjelmaa saa levittää edelleen ja muuttaa Free "
++"Software Foundationin julkaiseman GNU General Public Licensen (GPL-lisenssi) "
++"version 3 tai (valinnan mukaan) myöhemmän version ehtojen mukaisesti.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Kaikki kuvat"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Kaikki tiedostot"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Lataa kuva"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Tallenna kuva"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Avaa kansio"
+diff --git a/po/fr.po b/po/fr.po
+index 3a657c2..0750a94 100644
+--- a/po/fr.po
++++ b/po/fr.po
+@@ -9,16 +9,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint-0.2\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-12-20 14:00+0100\n"
+-"Last-Translator: Guillemin <Luc.Guillemin@gmail.com>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Guillemin <Unknown>\n"
+ "Language-Team: français <debian-l10n-french@list.debian.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=utf-8\n"
+-"Content-Transfer-Encoding: ?\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
+-"Plural-Forms: ?\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -29,145 +28,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Logiciel de dessin Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "_Couleurs"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Couleurs"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Par défaut"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Dernier fichier enregistré :"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Miroir _vertical"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Miroir et Rotation"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Miroir ou rotation"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Outil de sélection libre"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Métadonnées de l'image"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Indisponible"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Résolution :"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Taille occupée sur le disque dur :"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Unités"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Métadonnées…"
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Noir et blanc"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Effacer l'image"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Dessiner opaque"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Couleur"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "É_dition"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Fichier"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Miroir horizontal"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Miroir/Rotation…"
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Hauteur"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "Aid_e"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Image"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Pouces"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Inverser les couleurs"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "P_ixels"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Rotation selon l'angle"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "É_tirer/Déformer…"
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Affichage"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Largeur"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Sélectionner la couleur de remplissage"
+@@ -176,7 +63,7 @@ msgstr "Sélectionner la couleur de remplissage"
+ msgid "Select Foreground Color"
+ msgstr "Sélectionner la couleur du trait"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Sélectionner une couleur"
+ 
+@@ -212,13 +99,13 @@ msgstr "Erreur d'enregistrement du fichier « %s »"
+ msgid "unknown error"
+ msgstr "erreur inconnue"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr ""
+ "gnome-paint est un programme de dessin simple et facile à utiliser pour "
+ "GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+@@ -249,6 +136,3 @@ msgstr "Enregistrer l'image"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Ouvrir le dossier"
+-
+-#~ msgid "_Color"
+-#~ msgstr "_Couleur"
+diff --git a/po/gl.po b/po/gl.po
+new file mode 100644
+index 0000000..d58c9bb
+--- /dev/null
++++ b/po/gl.po
+@@ -0,0 +1,135 @@
++# Galician translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-10-08 21:55+0000\n"
++"Last-Translator: Jon Amil <Unknown>\n"
++"Language-Team: Galician <gl@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Cree e edite debuxos ou imaxes"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Editor de debuxo e pintura de GNOME"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Ferramenta de selección libre"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Cor"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Editar:"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Ficheiro"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Axuda"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Imaxe"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Ver"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Seleccionar a cor do fondo"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Seleccionar a cor do primeiro plano"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Seleccionar a cor"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Desexa gravar as modificacións feitas a \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "As súas modificacións perderanse se non as garda."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Erro ao carregar o ficheiro \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "sen título"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Erro ao gravar o ficheiro \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "erro descoñecido"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint é un programa de pintura simple e fácil de usar para GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Este programa é software libre, pode redistribuílo e/ou modificalo baixo os "
++"termos da GNU General Public License conforme foi publicada pola Free "
++"Software Foundation, sexa na versión 3, ou (segundo a súa opinión) calquera "
++"versión posterior.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Todas as imaxes"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Todos os ficheiros"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Cargar imaxe"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Gardar imaxe"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Abrir cartafol"
+diff --git a/po/he.po b/po/he.po
+index 9cb0492..dbe0e2a 100644
+--- a/po/he.po
++++ b/po/he.po
+@@ -7,17 +7,18 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint r36\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 17:49+0800\n"
+-"PO-Revision-Date: 2010-06-02 08:03+0200\n"
+-"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2010-09-01 18:06+0000\n"
++"Last-Translator: Amir Eldor <amir.eldor@gmail.com>\n"
+ "Language-Team: Gezer <sh.yaron@gmail.com>\n"
+-"Language: \n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=2; plural= (n!=1);\n"
+-"X-Poedit-Language: Hebrew\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ "X-Poedit-Country: ISRAEL\n"
++"Language: \n"
++"X-Poedit-Language: Hebrew\n"
+ "X-Poedit-SourceCharset: UTF-8\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+@@ -29,148 +30,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "עורך האיורים הצייר של Gnome"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-#, fuzzy
+-msgid "Colors"
+-msgstr "_צבע"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "כלי בחירה חופשית"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-#, fuzzy
+-msgid "_Clear Image"
+-msgstr "ת_מונה"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr ""
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_צבע"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "ע_ריכה"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_קובץ"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "ע_זרה"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "ת_מונה"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-#, fuzzy
+-msgid "_Invert Colors"
+-msgstr "בחירת צבע"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "ת_צוגה"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr ""
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "בחירת צבע הרקע"
+@@ -179,23 +65,18 @@ msgstr "בחירת צבע הרקע"
+ msgid "Select Foreground Color"
+ msgstr "בחירת צבע הקידמה"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "בחירת צבע"
+ 
+ #: ../src/file.c:98
+-#, fuzzy, c-format
++#, c-format
+ msgid "Do you want to save the changes you made to \"%s\"?"
+-msgstr ""
+-"האם ברצונך לשמור את השינויים שביצעת ל־\"%s\"?\n"
+-"השינויים שלך יאבדו אם לא ישמרו."
++msgstr "האם תרצה לשמור את השינויים שעשית ב \"%s\"?"
+ 
+ #: ../src/file.c:102
+-#, fuzzy
+ msgid "Your changes will be lost if you don't save them."
+-msgstr ""
+-"האם ברצונך לשמור את השינויים שביצעת ל־\"%s\"?\n"
+-"השינויים שלך יאבדו אם לא ישמרו."
++msgstr "השינויים שערכת יאבדו אם לא תשמור אותם."
+ 
+ #: ../src/file.c:175
+ #, c-format
+@@ -220,17 +101,20 @@ msgstr "ארעה שגיאה בשמירת הקובץ \"%s\""
+ msgid "unknown error"
+ msgstr "שגיאה בלתי ידועה"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+-msgstr ""
++msgstr "gnome-paint היא תכנת ציור פשוטה וקלה לשימוש עבור GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+ "Software Foundation, either version 3, or (at your opinion) any later "
+ "version.\n"
+ msgstr ""
++"תכנית זו היא תכנה חופשית: ניתן להפיצה ו/או לשנותה על פי תנאי הרישיון הציבורי "
++"הכללי של גנו כפי שהם מפורסמים על־ידי המוסד לתוכנה חופשית, בין אם גרסה 3 של "
++"הרישיון או (לבחירתך) כל גרסה מאוחרת יותר.\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+diff --git a/po/hi.po b/po/hi.po
+new file mode 100644
+index 0000000..a3ca7ec
+--- /dev/null
++++ b/po/hi.po
+@@ -0,0 +1,130 @@
++# Hindi translation for gnome-paint
++# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2012-02-04 12:09+0000\n"
++"Last-Translator: Vibhav Pant <vibhavp@gmail.com>\n"
++"Language-Team: Hindi <hi@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr ""
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "रंग (_C)"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "संपादन (_E)"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "फ़ाइल (_F)"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "मदद (_H)"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "छवि (_I)"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "देखें (_V)"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "पृष्ठभूमि रंग चुनिए"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr ""
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "रंग चुनें"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr ""
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr ""
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr ""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr ""
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "बेनाम"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr ""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "अज्ञात त्रुटि"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "सभी छवि"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "सभी फ़ाइलें"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "छवि लोड करें"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "छवि सहेजें"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "फोल्डर खोलें"
+diff --git a/po/hr.po b/po/hr.po
+new file mode 100644
+index 0000000..69daed6
+--- /dev/null
++++ b/po/hr.po
+@@ -0,0 +1,134 @@
++# Croatian translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2015-12-16 20:25+0000\n"
++"Last-Translator: gogo <trebelnik2@gmail.com>\n"
++"Language-Team: Croatian <hr@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Stvaranje i uređivanje crteža ili slika"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint uređivač crteža"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Alat za slobodni odabir"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Boja"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Uredi"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Datoteka"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Pomoć"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Slika"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Prikaz"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Odaberite boju pozadine"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Odaberite boje teksta"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Odaberite Boju"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Želite li spremiti promjene koje ste napravili u \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Vaše promjene će biti izgubljene ako ih ne spremite."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Pogreška pri učitavanju datoteke \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "bez naslova"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Pogreška pri spremanju datoteke \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "nepoznata greška"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint je jednostavan i lagan za korištenje program crtanja za GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ovaj je program slobodan softver. Možete ga raspačavati i/ili mijenjati pod "
++"uvjetima licence \"GNU General Public License\" koju je izdala Free Software "
++"Foundation; verzija 3 ili novija.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Sve slike"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Sve datoteke"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Učitaj sliku"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Spremi sliku"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Otvori mapu"
+diff --git a/po/hu.po b/po/hu.po
+new file mode 100644
+index 0000000..9929612
+--- /dev/null
++++ b/po/hu.po
+@@ -0,0 +1,135 @@
++# Hungarian translation for gnome-paint
++# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2012-07-21 17:41+0000\n"
++"Last-Translator: Richard Somlói <ricsipontaz@gmail.com>\n"
++"Language-Team: Hungarian <hu@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Rajzok és képek készítése, szerkesztése"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint rajzszerkesztő"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Szabad-kezes kijelölőeszköz"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Szín"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Szerkesztés"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Fájl"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Súgó"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Kép"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Nézet"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Háttérszín kiválasztása"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Előtérszín kiválasztása"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Szín kiválasztása"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Kívánja menteni a(z) „%s” nevű rajzon eszközölt módosításokat?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "A módosításai elvesznek, ha nem menti azokat."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Hiba a következő fájl betöltése közben: „%s”"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "névtelen"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Hiba a következő fájl mentése közben: „%s”"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "ismeretlen hiba"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"A gnome-paint egy egyszerű, könnyen használható rajzoló alkalmazás GNOME "
++"környezethez."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ez a program szabad szoftver; terjeszthető és/vagy módosítható a Free "
++"Software Foundation által közzétett GNU General Public License 3-as vagy (az "
++"Ön választása szerint) bármely későbbi verziója szerint.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Minden kép"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Minden fájl"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Kép betöltése"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Kép mentése"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Mappa megnyitása"
+diff --git a/po/it.po b/po/it.po
+index ecf4144..d15d5cd 100644
+--- a/po/it.po
++++ b/po/it.po
+@@ -7,14 +7,16 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint-0.2\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 17:50+0800\n"
+-"PO-Revision-Date: 2010-12-13 21:53+0100\n"
+-"Last-Translator: Emanuele Prestifilippo <emanuelep@simple-linux.com>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Emanuele Prestifilippo <Unknown>\n"
+ "Language-Team: Italian\n"
+-"Language: \n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: \n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -25,145 +27,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Editor di disegno Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "Co_lori"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Colori"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Predefiniti"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Ultimo file salvato:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Rifletti _verticalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Rifletti e Ruota"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Rifletti o ruota"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Strumento di selezione libera"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Attributi immagine"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Non disponibile"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Risoluzione:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Dimensione sul disco"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Unità"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Attributi..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Bianco e nero"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Cancella immagine"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Disegna opaco"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Colore"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Modifica"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_File"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Rifletti orizzontalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "Ri_fletti/Ruota..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "Al_tezza"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "Ai_uto"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Immagine"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "Poll_ici"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Inverti i colori"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Pixel"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Ruota da un angolo"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "Allunga/Inclina..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Visualizza"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "Larg_hezza"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Seleziona il colore di sfondo"
+@@ -172,7 +62,7 @@ msgstr "Seleziona il colore di sfondo"
+ msgid "Select Foreground Color"
+ msgstr "Seleziona il colore di primo piano"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Seleziona un colore"
+ 
+@@ -208,13 +98,21 @@ msgstr "Errore salvando il file \"%s\""
+ msgid "unknown error"
+ msgstr "errore sconosciuto"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint è un semplice programma di disegno per GNOME."
+ 
+-#: ../src/main.c:200
+-msgid "This program is free software; you may redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3, or (at your opinion) any later version.\n"
+-msgstr "Questo programm è software libero; puoi redistribuirlo e/o modificarlo nei termini della GNU General Public License come pubblicato dalla Free Software Foundation, sia la versione 3 o (a vostro parere) qualunque versione successiva.\n"
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Questo programm è software libero; puoi redistribuirlo e/o modificarlo nei "
++"termini della GNU General Public License come pubblicato dalla Free Software "
++"Foundation, sia la versione 3 o (a vostro parere) qualunque versione "
++"successiva.\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+@@ -235,4 +133,3 @@ msgstr "Salva immagine"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Apri cartella"
+-
+diff --git a/po/lt.po b/po/lt.po
+new file mode 100644
+index 0000000..eef596b
+--- /dev/null
++++ b/po/lt.po
+@@ -0,0 +1,136 @@
++# Lithuanian translation for gnome-paint
++# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2012-08-17 06:41+0000\n"
++"Last-Translator: Rimas Špakauskas <rimas.spakauskas@gmail.com>\n"
++"Language-Team: Lithuanian <lt@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Sukurti ir redaguoti piešinius ar paveikslėlius"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome Paint piešimo redaktorius"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Laisvo pažymėjimo įrankis"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Spalva"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Taisymas"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Failas"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Pagalba"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Paveikslėlis"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Rodymas"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Pasirinkti fono spalvą"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "pasirinkti priekinio plano spalvą"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Pasirinkti spalvą"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Ar prieš užveriant išsaugoti paveikslėlio „%s“ pakeitimus?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Jūsų pakeitimai bus prarasti, jei jų neišsaugosite."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Klaida įkeliant \"%s\" failą"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "nepavadinta"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Klaida išsaugant \"%s\" failą"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "nežinoma klaida"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint - tai paprasta, lengvai suprantama naudoti piešimo programa "
++"skirta GNOME"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ši programa yra laisva programinė įranga; galite ją platinti ir/ar "
++"modifikuoti GNU bendrosios viešosios licencijos sąlygomis, kurios paskelbtos "
++"Laisvosios programinės įrangos fondo,  3-osios arba (Jūsų pasirinkimu) bet "
++"kurios vėlesnės licencijos versijos sąlygomis.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Visi paveikslėliai"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Visi failai"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Įkelti paveikslėlį"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Išsaugoti paveikslėlį"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Atverti aplanką"
+diff --git a/po/ms.po b/po/ms.po
+new file mode 100644
+index 0000000..750203a
+--- /dev/null
++++ b/po/ms.po
+@@ -0,0 +1,134 @@
++# Malay translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-05-29 07:03+0000\n"
++"Last-Translator: abuyop <Unknown>\n"
++"Language-Team: Malay <ms@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Cipta dan Sunting Lukisan atau Imej"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Penyunting Lukisan Gnome Paint"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Alat pilih bebas"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Warna"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Sunting"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Fail"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Bantuan"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Imej"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Papar"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Pilih Warna Latar Belakang"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Pilih Warna Latar Hadapan"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Pilih Warna"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Adakah anda ingin menyimpan perubahan yang anda lakukan pada \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Perubahan anda akan hilang jika anda tidak menyimpannya."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Ralat memuatkan fail \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "tiada tajuk"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Ralat menyimpan fail \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "ralat tidak diketahui"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint ialah program paint untuk GNOME yang mudah digunakan."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Program ini adalah perisian bebas; anda boleh mengedarkannya dan/atau "
++"mengubahsuainya dibawah terma Pelesenan Awam Am GNU yang diterbitkan oleh "
++"Free Software Foundation, versi 3, atau (mengikut pendapat anda) mana-mana "
++"versi terkini.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Semua Imej"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Semua Fail"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Muatkan imej"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Simpan Imej"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Buka Folder"
+diff --git a/po/nb.po b/po/nb.po
+index 9c628a4..983523f 100644
+--- a/po/nb.po
++++ b/po/nb.po
+@@ -7,15 +7,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-12-09 17:25+0000\n"
+-"Last-Translator: Martin Dahl Moe <Unknown>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: Norwegian Bokmal <nb@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -26,145 +26,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr ""
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
++msgid "Free select tool"
+ msgstr ""
+ 
+ #: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
++msgid "_Color"
+ msgstr ""
+ 
+ #: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Farger"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Standard"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Sist lagret fil"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Vend og Roter"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Vend og roter"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+-msgid "Free select tool"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Ikke Tilgjengelig"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Oppløsning:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Plass på disken:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Enheter"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "-Sort og Hvitt"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:22
+ msgid "_Edit"
+ msgstr "_Rediger"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Fil"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Høyde"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Help"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Bilde"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "Roter med vinkel"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Vis"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Bredde"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Velg bakgrunnsfarge"
+@@ -173,7 +61,7 @@ msgstr "Velg bakgrunnsfarge"
+ msgid "Select Foreground Color"
+ msgstr "Velg forgrunnsfarge"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Velg farge"
+ 
+@@ -209,11 +97,11 @@ msgstr ""
+ msgid "unknown error"
+ msgstr "ukjent feil"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr ""
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+diff --git a/po/nl.po b/po/nl.po
+new file mode 100644
+index 0000000..36d5562
+--- /dev/null
++++ b/po/nl.po
+@@ -0,0 +1,137 @@
++# Dutch translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# Glenn de Groot, 2011.
++# Pjotr <pjotrvertaalt@gmail.com> , 2013
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2013-05-12 00:12+0000\n"
++"Last-Translator: Pjotr <Unknown>\n"
++"Language-Team: Dutch\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Maak en bewerk tekeningen of afbeeldingen"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Tekenprogramma voor Gnome"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Gereedschap voor vrije selectie"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Kleur"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "Be_werken"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "Be_stand"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Hulp"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Afbeelding"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Beeld"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Achtergrondkleur kiezen"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Voorgrondkleur kiezen"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Kleur kiezen"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Wilt u de wijzigingen die u aan '%s' heeft gemaakt opslaan?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Uw wijzigingen zullen verloren gaan als u ze niet opslaat."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Error bij het laden van bestand '%s'"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "naamloos"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Error bij het opslaan van bestand '%s'"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "onbekende fout"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"Gnome-paint is een simpel en gemakkelijk te gebruiken tekenprogramma voor "
++"GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Dit programma is vrije programmatuur; u mag haar herverdelen en/of wijzigen "
++"onder de voorwaarden van de GNU General Public License zoals gepubliceerd "
++"door de Free Software Foundation, hetzij versie drie daarvan, hetzij (naar "
++"uw keuze) enige nieuwere versie.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Alle afbeeldingen"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Alle bestanden"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Afbeelding laden"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Afbeelding opslaan"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Map openen"
+diff --git a/po/pl.po b/po/pl.po
+index c316e7d..7410912 100644
+--- a/po/pl.po
++++ b/po/pl.po
+@@ -9,12 +9,12 @@ msgstr ""
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2010-06-04 20:10-0300\n"
+ "PO-Revision-Date: 2017-10-30 22:53+0000\n"
+-"Last-Translator: Dominik Danelski <dominik@danelski.pl>\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2017-10-30 22:56+0000\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
+ "X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+diff --git a/po/pt.po b/po/pt.po
+index f9d7916..7f4fa98 100644
+--- a/po/pt.po
++++ b/po/pt.po
+@@ -7,16 +7,16 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome_paint\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: 2010-12-14 21:22+0000\n"
+-"Last-Translator: Américo Monteiro <a_monteiro@netcabo.pt>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Américo Monteiro <Unknown>\n"
+ "Language-Team: Portuguese <traduz@debianpt.org>\n"
+-"Language: Pt\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: Lokalize 1.0\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: Pt\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -27,145 +27,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Editor de Desenhos e Pinturas do Gnome"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "Co_res"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Cores"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Predefinições"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Último ficheiro gravado:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Virar na _vertical"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Virar e Rodar"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Virar ou rodar"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Ferramenta de selecção livre"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Atributos da Imagem"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Não Disponível"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Resolução:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Tamanho no disco:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Unidades"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Atributos..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Preto e branco"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Limpar a imagem"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Desenhar Opaco"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Cor"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Ficheiro"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "Virar na _horizontal"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Virar/Rodar..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Altura"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "A_juda"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Imagem"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Polegadas"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Inverter as Cores"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Pixels"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Rodar por ângulo"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Esticar/Encolher..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Ver"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Largura"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Seleccionar Cor de Fundo"
+@@ -174,7 +62,7 @@ msgstr "Seleccionar Cor de Fundo"
+ msgid "Select Foreground Color"
+ msgstr "Seleccionar Cor de Frente"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Seleccionar Cor"
+ 
+@@ -210,12 +98,12 @@ msgstr "Erro ao gravar o ficheiro \"%s\""
+ msgid "unknown error"
+ msgstr "erro desconhecido"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr ""
+ "gnome-paint é um programa de pintura simples e fácil de usar para GNOME."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+@@ -224,8 +112,8 @@ msgid ""
+ msgstr ""
+ "Este programa é software livre, você pode redistribuí-lo e/ou modificá-lo "
+ "sob os termos da GNU General Public License como publicada pela Free "
+-"Software Foundation, seja na versão 3, ou (na sua opinião) qualquer "
+-"versão posterior.\n"
++"Software Foundation, seja na versão 3, ou (na sua opinião) qualquer versão "
++"posterior.\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+@@ -246,5 +134,3 @@ msgstr "Gravar Imagem"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Abrir Pasta"
+-
+-
+diff --git a/po/pt_BR.po b/po/pt_BR.po
+index b3a5910..056ddf0 100644
+--- a/po/pt_BR.po
++++ b/po/pt_BR.po
+@@ -7,15 +7,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint-0.3\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-11-18 03:29+0000\n"
+-"Last-Translator: Adriano Steffler <Unknown>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:36+0000\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: pt_BR <rogerioferro@gmail.com>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -26,145 +26,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Editor de Desenhos Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "Co_res"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Cores"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Padrões"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Arquivo salvo pela última vez:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Inverter _verticalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Inverter e Girar"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Inverter ou girar"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Ferramenta de seleção livre"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Atributos da Imagem"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Não Disponível"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Resolução:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Tamanho no disco:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Unidades"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Atributos..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Preto e Branco"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Limpar Imagem"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Desenhar Opaco"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Cor"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Editar"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Arquivo"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Inverter horizontalmente"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Inverter/Girar..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Altura"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+-msgstr "_Ajuda"
++msgstr "Aj_uda"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Imagem"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Polegadas"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Inverter Cores"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Pixels"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Girar por ângulo"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Esticar/Torcer..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Visualizar"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Largura"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Selecione a Cor de Segundo Plano"
+@@ -173,7 +61,7 @@ msgstr "Selecione a Cor de Segundo Plano"
+ msgid "Select Foreground Color"
+ msgstr "Selecione a Cor de Primeiro Plano"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Selecione uma cor"
+ 
+@@ -209,11 +97,11 @@ msgstr "Erro ao salvar arquivo \"%s\""
+ msgid "unknown error"
+ msgstr "erro desconhecido"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "O gnome-paint é um programa simples e fácil de usar para o GNOME"
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+@@ -244,6 +132,3 @@ msgstr "Salvar Imagem"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Abrir Pasta"
+-
+-#~ msgid "_Color"
+-#~ msgstr "_Cor"
+diff --git a/po/ru.po b/po/ru.po
+index 22a57b5..c5e54ef 100644
+--- a/po/ru.po
++++ b/po/ru.po
+@@ -8,16 +8,16 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint 0.3\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 20:23+0800\n"
+-"PO-Revision-Date: 2010-09-07 11:49+0000\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
+ "Last-Translator: Sergey Basalaev <SBasalaev@gmail.com>\n"
+ "Language-Team: Russian <ru@li.org>\n"
+-"Language: ru\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=utf-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:04+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: ru\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -28,145 +28,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Редактор изображений Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "С_м"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "_Цвета"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Цвета"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "По умолчанию"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Последний сохранённый файл:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Отразить по _вертикали"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Отразить и повернуть"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Отразить или повернуть"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Инструмент свободного выделения"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Атрибуты рисунка"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Недоступно"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Разрешение:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Размер на диске:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Единиц"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Атрибуты..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Чёрно-белый"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Очистить изображение"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Рисовать непрозрачный"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Цвет"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Правка"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Файл"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "Отразить по _горизонтали"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Отразить/повернуть..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Высота"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Справка"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Изображение"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Дюймы"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "Обратить _цвета"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Пикселы"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Повернуть на угол"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Растянуть/Наклонить..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Вид"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Ширина"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Выбор цвета фона"
+@@ -175,7 +63,7 @@ msgstr "Выбор цвета фона"
+ msgid "Select Foreground Color"
+ msgstr "Выбор цвета тона"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Выбор цвета"
+ 
+@@ -211,11 +99,11 @@ msgstr "Ошибка сохранения файла «%s»"
+ msgid "unknown error"
+ msgstr "неизвестная ошибка"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint — это простое приложение для рисования в среде GNOME"
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+@@ -246,6 +134,3 @@ msgstr "Сохранить изображение"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Открыть папку"
+-
+-#~ msgid "_Color"
+-#~ msgstr "_Цвет"
+diff --git a/po/si.po b/po/si.po
+new file mode 100644
+index 0000000..0d3e5a3
+--- /dev/null
++++ b/po/si.po
+@@ -0,0 +1,133 @@
++# Sinhalese translation for gnome-paint
++# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2014-06-15 10:35+0000\n"
++"Last-Translator: nuwan pushpakumara <pushworld7@gmail.com>\n"
++"Language-Team: Sinhalese <si@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "චිත්‍රණ හෝ පින්තූර නිර්මාණය සහ සංස්කරණය"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Gnome චිත්‍රණ සකසනය"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "නිදහස් තේරුම් මෙවලම"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "වර්ණ (_C)"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "සංස්කරණය (_E)"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "ගොනුව (_F)"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "සහාය (_H)"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "පින්තූරය (_I)"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "දසුන (_V)"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "පසුබිම් වර්ණ තෝරන්න"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "පෙරබිම් වර්ණය තෝරන්න"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "වර්ණය තෝරන්න"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "සඳහා ඔබ කල සංස්කරණය සුරැකීමට අවශ්‍යද \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "සුරැකීම සිදුනොකළ හොත් ඔබ සිදු කල සංස්කරණයන් නැතිවිය හැක"
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "ගොනු පූරණ දෝෂය \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr ""
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "නිර්නාමික"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "ගොනුව සුරැකීමේදී දෝෂයකි \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "හදුනානොගත් දෝෂය"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint ඉතා සරලය, භාවිතය පහසු GNOME සඳහා වූ චිත්‍රණ වැඩසටහන"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"මෙය නොමිලේ මෘදුකාංගයකි; මෙය ඔබට නොමිලේ මෘදුකාංග පදනම යටතේ ප්‍රකාශිත GNU "
++"සාමාන්‍ය පොදු බලපත්‍ර 3වන අනුවාද යටතේ හෝ පෙර අනුවාදයක් යටතේ වෙනස්කිරීම හෝ "
++"නැවත ප්‍රචාරණය කළහැක(ඔබේ කැමැත්ත පරිදි).\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "සියලු පින්තූර"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "සියලු ගොනු"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "පින්තූරය පූරණය කරන්න"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "අනුරුව සුරකින්න"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "බහාලුම විවෘත කරන්න"
+diff --git a/po/sk.po b/po/sk.po
+new file mode 100644
+index 0000000..9679182
+--- /dev/null
++++ b/po/sk.po
+@@ -0,0 +1,135 @@
++# Slovak translation for gnome-paint
++# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2013-01-31 21:34+0000\n"
++"Last-Translator: DAG Software <Unknown>\n"
++"Language-Team: Slovak <sk@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Tvorba a úpravy kresieb a obrázkov"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Kresliaci editor Gnome Paint"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Nástroj voľný výber"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "F_arba"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Upraviť"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Súbor"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Nápoveda"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Obrázok"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Zobraziť"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Vybrať farbu pozadia"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Vybrať farbu popredia"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Vybrať farbu"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Chcete uložiť zmeny, ktoré ste spravili v \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Vaše zmeny sa stratia ak ich neuložíte."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Chyba pri načítavaní súboru \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "bez názvu"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Chyba pri ukladaní súboru \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "neznáma chyba"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint je jednoduchý, ľahko ovládateľný kresliaci program pre GNOME."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Tento program je slobodný software; môžte ho šíriť alebo upravovať za "
++"podmienok stanovených licenciou GNU General Public License, vydanou Free "
++"Software Foundation, buď vo verzii 3, alebo (podľa svojho uváženia) "
++"ktorejkoľvek novšej verzii.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Všetky obrázky"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Všetky súbory"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Načítať obrázok"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Uložiť obrázok"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Otvoriť priečinok"
+diff --git a/po/sr.po b/po/sr.po
+new file mode 100644
+index 0000000..765245b
+--- /dev/null
++++ b/po/sr.po
+@@ -0,0 +1,138 @@
++# Serbian translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2011.
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-11-06 19:24+0000\n"
++"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
++"Language-Team: Launchpad Serbian Translators\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"X-Project-Style: gnome\n"
++"Language: sr\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Стварајте и уређујте цртеже или слике"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Гномов сликар уређивач цртежа"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Алат слободног избора"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Боја"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Уреди"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Датотека"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "По_моћ"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Слика"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Приказ"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Изабери боју позадине"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Изабери боју првог плана"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Изабери боју"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Да ли желите да сачувате измене које сте направили у „%s“?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Ваше измене ће бити изгубљене ако их не сачувате."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Грешка при читању датотеке „%s“"
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s — гномов-сликар"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "неименовано"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Грешка при чувању датотеке „%s“"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "непозната грешка"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"гномов-сликар је једноставан и лак за коришћење програм за сликање у "
++"Гномовом окружењу"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Овај програм је слободан софтвер; можете га прослеђивати и/или мењати под "
++"условима ГНУ Опште јавне лиценце коју је објавила Задужбина слободног "
++"софтвера, било верзије 3 лиценце, или (по вашем избору) било које новије "
++"верзије.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Све слике"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Све датотеке"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Учитај слику"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Сачувај слику"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Отвори директоријум"
+diff --git a/po/sr@latin.po b/po/sr@latin.po
+new file mode 100644
+index 0000000..99eca3d
+--- /dev/null
++++ b/po/sr@latin.po
+@@ -0,0 +1,135 @@
++# Serbian Latin translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-06-17 17:01+0000\n"
++"Last-Translator: Stefan Ivanović <Unknown>\n"
++"Language-Team: Serbian Latin <sr@latin@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Kreiraj i izmeni crteže"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "GNOME Aplikacija Za Crtanje"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Slobodna selekcija"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Boja"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Uredi"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Datoteka"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Pomoć"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Slika"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_Prikaz"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Izaberi boju pozadine"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Izaberi boju u prvom planu"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Odaberi Boju"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Da li želite da sačuvate promene koje ste napravili sa \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Izmene će biti izgubljene ako ih ne sačuvate."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Greška pri čitanju datoteke \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "Bezimeno"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "Greška pri čuvanju datoteke \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "nepoznata greška"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint je jednostavan i lak za korišćenje program namenjen za "
++"korišćenje u okruženju GNOME"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ova aplikacija je besplatna; možete je distribuirati i/ili modifikovati pod "
++"uslovima GNU GPL koja je izdata od strane Osnove Slobodnog Softvera, verzije "
++"3 ili novije.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Sve slike"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Sve datoteke"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Učitaj sliku"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Sačuvaj sliku"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Otvori direktorijum"
+diff --git a/po/te.po b/po/te.po
+new file mode 100644
+index 0000000..d093cea
+--- /dev/null
++++ b/po/te.po
+@@ -0,0 +1,131 @@
++# Telugu translation for gnome-paint
++# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2013-11-29 22:23+0000\n"
++"Last-Translator: Akela <sdakela@gmail.com>\n"
++"Language-Team: Telugu <te@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr ""
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr ""
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "రంగు (_C)"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "సవరించు (_E)"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "ఫైలు (_F)"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "సహాయం (_H)"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "చిత్రము (_I)"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "దర్శించు(_V)"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "నేపధ్యపు రంగును యెంపిక్ చేయుము."
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr ""
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "రంగు ఎంచుకో"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "\"%s\" కి మీరు చేసిన మార్పులు సేవ్ చేయాలనుకుంటున్నారా?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "మీరు చేసిన మార్పులు దాచనిచో పోవును."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr ""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr ""
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "శీర్షికలేనిది"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "\"%s\" ను సేవ్ సేవ్ చేయడంలో దోషం జరిగింది"
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "తెలియని దోషం"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr ""
++"gnome-paint GNOME కోసం ఒక సాధారణ, ఉపయోగించడానికి సులభమైన పెయింట్ ప్రోగ్రామ్."
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "అన్ని చిత్రాలు"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "అన్ని ఫైళ్ళు"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "చిత్రాన్ని లోడ్ చేయి"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "చిత్రాన్ని సేవ్ చెయ్యి"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "సంచయాన్ని తెరువు"
+diff --git a/po/th.po b/po/th.po
+new file mode 100644
+index 0000000..0c08096
+--- /dev/null
++++ b/po/th.po
+@@ -0,0 +1,132 @@
++# Thai translation for gnome-paint
++# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2014-06-03 10:49+0000\n"
++"Last-Translator: Rockworld <sumoisrock@gmail.com>\n"
++"Language-Team: Thai <th@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "สร้างและแก้ไขรูปภาพหรือภาพวาดต่างๆ"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "โปรแกรมวาดภาพ Gnome"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "เครื่องมือเลือกเอง"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_สี"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "แ_ก้ไข"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "แ_ฟ้ม"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_วิธีใช้"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_ภาพ"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "_มุมมอง"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "เลือกสีของพื้นหลัง"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr ""
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "เลือกสี"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "คุณต้องการบันทึกการเปลี่ยนแปลงที่คุณได้กระทำไว้กับ \"%s\" หรือไม่?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "การเปลี่ยนแปลงของคุณที่ทำไว้จะสูญหาย ถ้าไม่ได้บันทึก"
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "เกิดข้อผิดพลาดขณะโหลดไฟล์ \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "ไม่มีชื่อ"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "เกิดข้อผิดพลาดขณะบันทึกไฟล์ \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "ผิดพลาดไม่ทราบสาเหตุ"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint เป็นโปรแกรมวาดภาพของ GNOME ซึ่งใช้งานง่าย"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"โปรแกรมนี้เป็นซอฟต์แวร์เสรีซึ่งคุณสามารถแก้ไขได้ตามข้อตกลงของ GNU General "
++"Public License ซึ้งได้ถูกเผยแพร่โดย Free Software Foundation เป็นใบที่ 3\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "รูปภาพทั้งหมด"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "ทุกแฟ้ม"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "อ่านรูป"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "บันทึกรูปภาพ"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "เปิดโฟลเดอร์"
+diff --git a/po/tr.po b/po/tr.po
+index 263a387..005be56 100644
+--- a/po/tr.po
++++ b/po/tr.po
+@@ -7,15 +7,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+-"POT-Creation-Date: 2010-08-10 21:32+0000\n"
+-"PO-Revision-Date: 2010-08-31 10:58+0000\n"
+-"Last-Translator: Ebru Ersoy <Unknown>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:38+0000\n"
++"Last-Translator: Dominik <dominik@danelski.pl>\n"
+ "Language-Team: Turkish <tr@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Launchpad-Export-Date: 2010-12-13 12:32+0000\n"
+-"X-Generator: Launchpad (build Unknown)\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -26,145 +26,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Gnome Paint Çizim Düzenleyicisi"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "_Renkler"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Renkler"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Öntanımlılar"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Dosyanın son kaydedildiği yer:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "_Dikey çevir"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Çevir ve Döndür"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Çevir veya Döndür"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Serbest seçim aracı"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Resim Özellikleri"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Uygun Değil"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Çözünürlük:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Diskteki boyut:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Birimler"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "_Özellikler..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "_Siyah-beyaz"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Resmi Temizle"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Saydamsız Çiz"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Renk"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Düzenle"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Dosya"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "_Yatay Çevir"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "_Çevir/Döndür..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Yükseklik"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "_Yardım"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Görüntü"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "_Renkleri Ters Çevir"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Benekler"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr ""
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Esnet/Eğ"
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Görünüm"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "_Genişlik"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Artalan Rengini Seç"
+@@ -173,7 +61,7 @@ msgstr "Artalan Rengini Seç"
+ msgid "Select Foreground Color"
+ msgstr "Önalan Rengini Seçin"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Renk Seçin"
+ 
+@@ -209,11 +97,11 @@ msgstr "\"%s\" dosyasının kaydedilmesinde hata"
+ msgid "unknown error"
+ msgstr "bilinmeyen hata"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint, GNOME için sade ve kolay bir boyama programıdır."
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+diff --git a/po/uk.po b/po/uk.po
+new file mode 100644
+index 0000000..a153770
+--- /dev/null
++++ b/po/uk.po
+@@ -0,0 +1,134 @@
++# Ukrainian translation for gnome-paint
++# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
++# This file is distributed under the same license as the gnome-paint package.
++# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
++#
++msgid ""
++msgstr ""
++"Project-Id-Version: gnome-paint\n"
++"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2011-04-29 18:04+0000\n"
++"Last-Translator: Anton Sudak <anton.sudak@gmail.com>\n"
++"Language-Team: Ukrainian <uk@li.org>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:1
++msgid "Create and Edit Drawings or Images"
++msgstr "Створюйте та редагуйте креслення або малюнки"
++
++#: ../data/desktop/gnome-paint.desktop.in.in.h:2
++msgid "Gnome Paint Drawing Editor"
++msgstr "Графічний редактор Gnome Paint"
++
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "Free select tool"
++msgstr "Інструмент вільного виділення"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Колір"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "_Edit"
++msgstr "_Редагування"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "_File"
++msgstr "_Файл"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "_Help"
++msgstr "_Допомога"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "_Image"
++msgstr "_Зображення"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "_View"
++msgstr "П_ерегляд"
++
++#: ../src/color.c:142
++msgid "Select Background Color"
++msgstr "Вибір кольору тла"
++
++#: ../src/color.c:155
++msgid "Select Foreground Color"
++msgstr "Вибір кольору переднього плану"
++
++#: ../src/color.c:214
++msgid "Select Color"
++msgstr "Обрати колір"
++
++#: ../src/file.c:98
++#, c-format
++msgid "Do you want to save the changes you made to \"%s\"?"
++msgstr "Ви хочете зберегти зміни, внесені до \"%s\"?"
++
++#: ../src/file.c:102
++msgid "Your changes will be lost if you don't save them."
++msgstr "Якщо не зберегти, зміни будуть втрачені."
++
++#: ../src/file.c:175
++#, c-format
++msgid "Error loading file \"%s\""
++msgstr "Помилка при завантаженні файла  \"%s\""
++
++#: ../src/file.c:272
++#, c-format
++msgid "%s - gnome-paint"
++msgstr "%s - gnome-paint"
++
++#: ../src/file.c:313
++msgid "untitled"
++msgstr "без назви"
++
++#: ../src/file.c:326
++#, c-format
++msgid "Error saving file \"%s\""
++msgstr "ПОмилка при збереженні файла \"%s\""
++
++#: ../src/file.c:340
++msgid "unknown error"
++msgstr "невідома помилка"
++
++#: ../src/main.c:183
++msgid "gnome-paint is a simple, easy to use paint program for GNOME."
++msgstr "gnome-paint - це проста програма для малювання в середовищі GNOME"
++
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Ця програма є вільним програмним забезпеченням, ви можете поширювати її "
++"та/або вносити зміни на умовах GNU General Public License,\n"
++"версії 3 або (на ваш вибір) будь-якої наступної версії, опублікованої Free "
++"Software Foundation.\n"
++
++#: ../src/pixbuf-file-chooser.c:234
++msgid "All Images"
++msgstr "Усі зображення"
++
++#: ../src/pixbuf-file-chooser.c:353
++msgid "All Files"
++msgstr "Всі файли"
++
++#: ../src/pixbuf-file-chooser.c:427
++msgid "Load Image"
++msgstr "Відкрити зображення"
++
++#: ../src/pixbuf-file-chooser.c:435
++msgid "Save Image"
++msgstr "Зберегти зображення"
++
++#: ../src/pixbuf-file-chooser.c:443
++msgid "Open Folder"
++msgstr "Відкрити папку"
+diff --git a/po/vi.po b/po/vi.po
+index 4913a46..320e336 100644
+--- a/po/vi.po
++++ b/po/vi.po
+@@ -7,16 +7,19 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: 2010-12-17 13:25+0700\n"
+-"Last-Translator: Duy Hung Tran <nguyentieuhau@gmail.com>\n"
+-"Language-Team: debian-l10n-vietnamese <debian-l10n-vietnamese@lists.debian.org>\n"
+-"Language: \n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Hung Tran <nguyentieuhau@gmail.com>\n"
++"Language-Team: debian-l10n-vietnamese <debian-l10n-"
++"vietnamese@lists.debian.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=utf-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Poedit-Language: Vietnamese\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ "X-Poedit-Country: VIET NAM\n"
++"Language: \n"
++"X-Poedit-Language: Vietnamese\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -27,145 +30,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Trình soạn thảo hình vẽ Gnome Paint"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "Mà_u sắc"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "Màu sắc"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "Mặc định"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "Tập tin lưu lần cuối:"
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "Lật _thẳng đứng"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "Lật và xoay"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "Lật hay xoay"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "Công cụ lựa chọn tự do"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "Thuộc tính ảnh"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "Không thể dùng được"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "Độ phân giải:"
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "Kích thước trên đĩa:"
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "Đơn vị"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "T_huộc tính"
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "Đ_en và trắng"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "_Xóa ảnh"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "_Vẽ ảnh mờ"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "_Màu sắc"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Chỉnh sửa"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "_Tập tin"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "Lật _ngang"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "Lật/_xoay"
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "_Chiều cao"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "Trợ _giúp"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "_Hình ảnh"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "_Inches"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "Đả_o ngược màu"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "_Pixels"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "_Xoay bởi góc"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "_Căng/nghiêng..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Xem"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "Chiều _rộng"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "Chọn màu cho hậu cảnh"
+@@ -174,7 +65,7 @@ msgstr "Chọn màu cho hậu cảnh"
+ msgid "Select Foreground Color"
+ msgstr "Chọn màu cho tiền cảnh"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "Chọn màu"
+ 
+@@ -210,13 +101,21 @@ msgstr "Lỗi lưu tập tin \"%s\""
+ msgid "unknown error"
+ msgstr "không rõ lỗi"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint là chương trình vẽ đơn giản và dễ sử dụng cho GNOME."
+ 
+-#: ../src/main.c:200
+-msgid "This program is free software; you may redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3, or (at your opinion) any later version.\n"
+-msgstr "Chương trình này là phần mềm tự do, bạn có thể cung cấp lại và/hoặc chỉnh sửa nó theo những điều khoản của Giấy phép Công cộng của GNU do Tổ chức Phần mềm Tự do công bố, theo phiên bản 3 của Giấy phép, hoặc bất kỳ một phiên bản mới hơn (tùy sự lựa chọn của bạn).\n"
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"Chương trình này là phần mềm tự do, bạn có thể cung cấp lại và/hoặc chỉnh "
++"sửa nó theo những điều khoản của Giấy phép Công cộng của GNU do Tổ chức Phần "
++"mềm Tự do công bố, theo phiên bản 3 của Giấy phép, hoặc bất kỳ một phiên bản "
++"mới hơn (tùy sự lựa chọn của bạn).\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+@@ -237,4 +136,3 @@ msgstr "Lưu ảnh"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "Mở thư mục"
+-
+diff --git a/po/zh_CN.po b/po/zh_CN.po
+index da21e46..262e0bd 100644
+--- a/po/zh_CN.po
++++ b/po/zh_CN.po
+@@ -8,14 +8,15 @@ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome-paint HEAD\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 17:49+0800\n"
+-"PO-Revision-Date: 2010-12-13 18:01+0800\n"
+-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
++"Last-Translator: Aron Xu <Unknown>\n"
+ "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+-"Language: zh_CN\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -26,145 +27,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Gnome 画图工具"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "C_m"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "颜色(_L)"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "颜色"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "默认"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "最近保存的文件："
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "竖直翻转"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "翻转并旋转"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "翻转或旋转"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "自由选取工具"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "图像属性"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "不可用"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "分辨率："
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "磁盘上的大小："
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "单元"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "属性(_A)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "黑白(_B)"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "清空图像(_C)"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "绘制不透明图形(_D)"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "颜色(_C)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "编辑(_E)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "文件(_F)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "水平翻转(_F)"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "翻转/旋转(_F)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "高度(_H)"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "帮助(_H)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "图像(_I)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "英寸(_I)"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "翻转颜色(_I)"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "像素(_P)"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "按角度旋转(_R)"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "拉伸/倾斜(_S)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "查看(_V)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "宽度(_W)"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "选择背景色"
+@@ -173,7 +62,7 @@ msgstr "选择背景色"
+ msgid "Select Foreground Color"
+ msgstr "选择前景色"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "选择颜色"
+ 
+@@ -209,19 +98,18 @@ msgstr "保存文件 %s 出错"
+ msgid "unknown error"
+ msgstr "未知错误"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint 是一个简单易用的 GNOME 画图程序。"
+ 
+-#: ../src/main.c:200
++#: ../src/main.c:185
+ msgid ""
+ "This program is free software; you may redistribute it and/or modify it "
+ "under the terms of the GNU General Public License as published by the Free "
+ "Software Foundation, either version 3, or (at your opinion) any later "
+ "version.\n"
+ msgstr ""
+-"本程序是自由软件；您可以依照自由软件基金会发布的 GNU 通用公共许可证(GPL)的第"
+-"三版(或更高版本)中的条款对软件重新发布和/或进行修改。\n"
++"本程序是自由软件；您可以依照自由软件基金会发布的 GNU 通用公共许可证(GPL)的第三版(或更高版本)中的条款对软件重新发布和/或进行修改。\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+diff --git a/po/zh_TW.po b/po/zh_TW.po
+index 410c913..248c43f 100644
+--- a/po/zh_TW.po
++++ b/po/zh_TW.po
+@@ -3,20 +3,20 @@
+ # This file is distributed under the same license as the gnome_paint package.
+ # Cheng-Chia Tseng <pswo1680@gmail.com>, 2010
+ #
+-
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: gnome_paint master\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2010-12-13 18:22+0800\n"
+-"PO-Revision-Date: \n"
++"POT-Creation-Date: 2010-06-04 20:10-0300\n"
++"PO-Revision-Date: 2017-11-02 20:37+0000\n"
+ "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+ "Language-Team: chinese-l10n <chinese-l10n@gmail.com>\n"
+-"Language: \n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=1; plural=0;\n"
++"X-Launchpad-Export-Date: 2017-11-03 05:24+0000\n"
++"X-Generator: Launchpad (build 18493)\n"
++"Language: \n"
+ 
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:1
+ msgid "Create and Edit Drawings or Images"
+@@ -27,145 +27,33 @@ msgid "Gnome Paint Drawing Editor"
+ msgstr "Gnome 繪畫編輯器"
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+-msgid "C_m"
+-msgstr "公分(_M)"
+-
+-#: ../data/ui/gnome_paint.ui.h:2
+-msgid "Co_lors"
+-msgstr "色彩(_L)"
+-
+-#: ../data/ui/gnome_paint.ui.h:3
+-msgid "Colors"
+-msgstr "色彩"
+-
+-#: ../data/ui/gnome_paint.ui.h:4
+-msgid "Defaults"
+-msgstr "預設值"
+-
+-#: ../data/ui/gnome_paint.ui.h:5
+-msgid "File last saved:"
+-msgstr "上次儲存的檔案："
+-
+-#: ../data/ui/gnome_paint.ui.h:6
+-msgid "Flip _vertical"
+-msgstr "垂直翻轉(_V)"
+-
+-#: ../data/ui/gnome_paint.ui.h:7
+-msgid "Flip and Rotate"
+-msgstr "翻轉與旋轉"
+-
+-#: ../data/ui/gnome_paint.ui.h:8
+-msgid "Flip or rotate"
+-msgstr "翻轉或旋轉"
+-
+-#: ../data/ui/gnome_paint.ui.h:9
+ msgid "Free select tool"
+ msgstr "自由選取工具"
+ 
+-#: ../data/ui/gnome_paint.ui.h:10
+-msgid "Image Attributes"
+-msgstr "影像屬性"
+-
+-#: ../data/ui/gnome_paint.ui.h:11
+-msgid "Not Available"
+-msgstr "不可用"
+-
+-#: ../data/ui/gnome_paint.ui.h:12
+-msgid "Resolution:"
+-msgstr "解析度："
+-
+-#: ../data/ui/gnome_paint.ui.h:13
+-msgid "Size on disk:"
+-msgstr "於磁碟上的大小："
+-
+-#: ../data/ui/gnome_paint.ui.h:14
+-msgid "Units"
+-msgstr "單位"
+-
+-#: ../data/ui/gnome_paint.ui.h:15
+-msgid "_180&#xB0;"
+-msgstr "_180&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:16
+-msgid "_270&#xB0;"
+-msgstr "_270&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:17
+-msgid "_90&#xB0;"
+-msgstr "_90&#xB0;"
+-
+-#: ../data/ui/gnome_paint.ui.h:18
+-msgid "_Attributes..."
+-msgstr "屬性(_A)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:19
+-msgid "_Black and white"
+-msgstr "黑與白(_B)"
+-
+-#: ../data/ui/gnome_paint.ui.h:20
+-msgid "_Clear Image"
+-msgstr "清除影像(_C)"
+-
+-#: ../data/ui/gnome_paint.ui.h:21
+-msgid "_Draw Opaque"
+-msgstr "白色不透明處理(_D)"
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "_Color"
++msgstr "顏色(_C)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:22
++#: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "編輯(_E)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:23
++#: ../data/ui/gnome_paint.ui.h:4
+ msgid "_File"
+ msgstr "檔案(_F)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:24
+-msgid "_Flip horizontal"
+-msgstr "水平翻轉(_F)"
+-
+-#: ../data/ui/gnome_paint.ui.h:25
+-msgid "_Flip/Rotate..."
+-msgstr "翻轉/旋轉(_F)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:26
+-msgid "_Height"
+-msgstr "高(_H)"
+-
+-#: ../data/ui/gnome_paint.ui.h:27
++#: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "幫助(_H)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:28
++#: ../data/ui/gnome_paint.ui.h:6
+ msgid "_Image"
+ msgstr "影像(_I)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:29
+-msgid "_Inches"
+-msgstr "英吋(_I)"
+-
+-#: ../data/ui/gnome_paint.ui.h:30
+-msgid "_Invert Colors"
+-msgstr "反轉色彩(_I)"
+-
+-#: ../data/ui/gnome_paint.ui.h:31
+-msgid "_Pixels"
+-msgstr "畫素(_P)"
+-
+-#: ../data/ui/gnome_paint.ui.h:32
+-msgid "_Rotate by angle"
+-msgstr "旋轉某角度(_R)"
+-
+-#: ../data/ui/gnome_paint.ui.h:33
+-msgid "_Stretch/Skew..."
+-msgstr "延展/傾斜(_S)..."
+-
+-#: ../data/ui/gnome_paint.ui.h:34
++#: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "檢視(_V)"
+ 
+-#: ../data/ui/gnome_paint.ui.h:35
+-msgid "_Width"
+-msgstr "寬(_W)"
+-
+ #: ../src/color.c:142
+ msgid "Select Background Color"
+ msgstr "選取背景色彩"
+@@ -174,7 +62,7 @@ msgstr "選取背景色彩"
+ msgid "Select Foreground Color"
+ msgstr "選取前景色彩"
+ 
+-#: ../src/color.c:215
++#: ../src/color.c:214
+ msgid "Select Color"
+ msgstr "選取色彩"
+ 
+@@ -210,13 +98,19 @@ msgstr "儲存「%s」檔案發生錯誤"
+ msgid "unknown error"
+ msgstr "未知錯誤"
+ 
+-#: ../src/main.c:198
++#: ../src/main.c:183
+ msgid "gnome-paint is a simple, easy to use paint program for GNOME."
+ msgstr "gnome-paint 是一套為 GNOME  設計的繪畫程式，簡單且易於使用。"
+ 
+-#: ../src/main.c:200
+-msgid "This program is free software; you may redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3, or (at your opinion) any later version.\n"
+-msgstr "本程式是自由軟體；您可以在遵守 Free Software Foundation 所發布的 GNU General Plublic License 條款的情況下對它進行重新散布與/或修改，可以採用第三版或更之後 (您可自由選擇) 的版本。\n"
++#: ../src/main.c:185
++msgid ""
++"This program is free software; you may redistribute it and/or modify it "
++"under the terms of the GNU General Public License as published by the Free "
++"Software Foundation, either version 3, or (at your opinion) any later "
++"version.\n"
++msgstr ""
++"本程式是自由軟體；您可以在遵守 Free Software Foundation 所發布的 GNU General Plublic License "
++"條款的情況下對它進行重新散布與/或修改，可以採用第三版或更之後 (您可自由選擇) 的版本。\n"
+ 
+ #: ../src/pixbuf-file-chooser.c:234
+ msgid "All Images"
+@@ -237,4 +131,3 @@ msgstr "儲存影像"
+ #: ../src/pixbuf-file-chooser.c:443
+ msgid "Open Folder"
+ msgstr "開啟資料夾"
+-

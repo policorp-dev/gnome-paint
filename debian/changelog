@@ -1,0 +1,139 @@
+gnome-paint (0.4.Policorp-10) unstable; urgency=medium
+
+  * Fix translation
+
+ -- Edson Juliano Drosdeck <edson@policorp.com.br>  Fri, 22 Aug 2025 08:49:42 -0300
+
+gnome-paint (0.4.0-9) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit (from ./configure), Name (from
+    ./configure).
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Boyuan Yang ]
+  * Remove my name from the Uploaders list.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 20 Sep 2023 15:28:10 -0400
+
+gnome-paint (0.4.0-8) unstable; urgency=medium
+
+  * Rebuild after Debian bullseye release.
+  * debian/patches: Cherry-pick upstream patch on translation fix
+    (r90).
+  * Refresh packaging:
+    + Bump Standards-Version to 4.6.0.
+    + Bump debhelper compat to v13.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 17 Oct 2021 14:27:53 -0400
+
+gnome-paint (0.4.0-7) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * d/changelog: Remove trailing whitespaces
+
+  [ Boyuan Yang ]
+  * Rebuild for Debian Buster.
+  * debian/patches: Refresh patches and cherry-pick upstream fixes
+    till 20171102.
+  * debian/watch: Removed, useless.
+  * debian/control:
+    + Bump debhelper compat to v12.
+    + Bump Standards-Version to 4.3.0.
+    + Use Rules-Requires-Root: no.
+  * debian/menu: Removed per tech-ctte's decision.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 26 Feb 2019 14:12:17 -0500
+
+gnome-paint (0.4.0-6) unstable; urgency=medium
+
+  * Rebuild against gcc-8.
+  * debian/control:
+    + Bump debhelper compat to v11.
+    + Bump Standards-Version to 4.2.1.
+    + Update Vcs fields and use the git repo under Salsa Debian group.
+    + Update my uploader email address and use the @debian.org one.
+    - Remove unnecessary build-dependency dh-autoreconf.
+  * debian/rules:
+    + Enable full hardening.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 28 Aug 2018 14:40:56 -0400
+
+gnome-paint (0.4.0-5) unstable; urgency=medium
+
+  * Sponsored upload.
+  * d/control: Add myself into uploaders list.
+  * d/control: Bump Standards Version to 3.9.8.
+  * d/control: Use secure URI for homepage.
+  * d/control: Add Vcs-Git and Vcs-Browser.
+  * control,rules: Use dh-autoreconf instead of autotools-dev.
+    (Closes: #727874)
+  * d/patches: Add patch to enable deprecated gdk functions.
+    (Closes: #860233)
+
+ -- Boyuan Yang <073plan@gmail.com>  Mon, 17 Apr 2017 21:42:56 +0800
+
+gnome-paint (0.4.0-4) unstable; urgency=low
+
+  * debian/ftbfs-libs-lm.patch:
+    Explicitly link with -lm to fix FTBFS.
+  * debian/ftbfs-format-security.patch:
+    Fix format errors.
+  * Use dh compat 9.
+  * Std-ver: 3.9.2 -> 3.9.4, no change.
+
+ -- Aron Xu <aron@debian.org>  Tue, 30 Jul 2013 21:29:55 +0800
+
+gnome-paint (0.4.0-3) unstable; urgency=low
+
+  * debian/patches/lp-757607-crash-in-toolbar.patch:
+    + Fix a crash by clicking pencil then painter at toolbar.
+      Thanks Juan Balderas for supplying the patch. (LP: #757607)
+  * debian/control:
+    - Change to @debian.org email address.
+    - Remove DMUA since not needed anymore.
+    - Update std-ver to 3.9.2.
+
+ -- Aron Xu <aron@debian.org>  Tue, 24 May 2011 06:21:35 +0800
+
+gnome-paint (0.4.0-2) unstable; urgency=low
+
+  * debian/patches/debian-612470-handle-urls.patch:
+    + Handle URLs when given as command line parameters. (Closes: #612470)
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Thu, 10 Feb 2011 14:34:01 +0800
+
+gnome-paint (0.4.0-1) unstable; urgency=low
+
+  * New upstream release.
+    - Draw GtkMenu when clicking items in GtkMenuBar (Closes: #607137)
+  * debian/control:
+    - Update homepage link.
+    - Bump std-ver to 3.9.1.
+    + Add DM-Upload-Allowed: yes.
+  * debian/rules:
+    +  LDFLAGS += -Wl,--as-needed
+  * Update translations:
+    + pt by Américo Monteiro <a_monteiro@netcabo.pt> (Closes: #607131)
+    + da by Joe Dalton <joedalton2@yahoo.dk> (Closes: #607140)
+    + vi by Duy Hùng Trần <nguyentieuhau@gmail.com> (Closes: #607342)
+    + cs by Michal Simunek <michal.simunek@gmail.com> (Closes: #607468)
+    + de by Chris Leick <c.leick@vollbio.de> (Closes: #607769)
+    + fr by Jean-Pierre <ceinestpasuncomptepoubelle@gmail.com> (Closes: #607845)
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Mon, 13 Dec 2010 17:38:49 +0800
+
+gnome-paint (0.3-2) unstable; urgency=low
+
+  * debian/control:
+      Add intltool (>= 0.35.0), gettext to build-dep. (Closes: #589047)
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Wed, 14 Jul 2010 16:44:57 +0800
+
+gnome-paint (0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #585952)
+
+ -- Aron Xu <happyaron.xu@gmail.com>  Tue, 15 Jun 2010 14:20:26 +0800

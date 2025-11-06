@@ -1,0 +1,10 @@
+update_translations.patch
+debian-612470-handle-urls.patch
+0003-Make-it-compatible-with-latest-gtk2.patch
+0004-Update-of-project-s-website-URL.patch
+0005-Added-Polish-translation.patch
+0006-Now-builds-using-lm.patch
+0007-Included-patch-by-Juan-Balderas-crash-in-toolbar.patch
+0008-Included-patch-by-Logan-Rosen-and-one-other-gdk-func.patch
+0009-Merged-new-translations.patch
+0010-POLICORP-translation-pt_BR.patch

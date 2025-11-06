@@ -1,0 +1,112 @@
+Index: gnome-paint/po/pt_BR.po
+===================================================================
+--- gnome-paint.orig/po/pt_BR.po
++++ gnome-paint/po/pt_BR.po
+@@ -24,6 +24,38 @@ msgstr "Crie e Edite Desenhos ou Imagens
+ #: ../data/desktop/gnome-paint.desktop.in.in.h:2
+ msgid "Gnome Paint Drawing Editor"
+ msgstr "Editor de Desenhos Gnome Paint"
++#: ../data/ui/gnome_paint.ui.h:1
++msgid "C_m"
++msgstr "C_m"
++
++#: ../data/ui/gnome_paint.ui.h:2
++msgid "Co_lors"
++msgstr "Co_res"
++
++#: ../data/ui/gnome_paint.ui.h:3
++msgid "Colors"
++msgstr "Cores"
++
++#: ../data/ui/gnome_paint.ui.h:4
++msgid "Defaults"
++msgstr "Predefinições"
++
++#: ../data/ui/gnome_paint.ui.h:5
++msgid "File last saved:"
++msgstr "Último arquivo gravado:"
++
++#: ../data/ui/gnome_paint.ui.h:6
++msgid "Flip _vertical"
++msgstr "Virar na _vertical"
++
++#: ../data/ui/gnome_paint.ui.h:7
++msgid "Flip and Rotate"
++msgstr "Virar e Rodar"
++
++#: ../data/ui/gnome_paint.ui.h:8
++msgid "Flip or rotate"
++msgstr "Virar ou rodar"
++
+ 
+ #: ../data/ui/gnome_paint.ui.h:1
+ msgid "Free select tool"
+@@ -33,6 +65,22 @@ msgstr "Ferramenta de seleção livre"
+ msgid "_Color"
+ msgstr "_Cor"
+ 
++#: ../data/ui/gnome_paint.ui.h:18
++msgid "_Attributes..."
++msgstr "_Atributos..."
++
++#: ../data/ui/gnome_paint.ui.h:19
++msgid "_Black and white"
++msgstr "_Preto e branco"
++
++#: ../data/ui/gnome_paint.ui.h:20
++msgid "_Clear Image"
++msgstr "_Limpar a imagem"
++
++#: ../data/ui/gnome_paint.ui.h:21
++msgid "_Draw Opaque"
++msgstr "_Desenhar Opaco"
++
+ #: ../data/ui/gnome_paint.ui.h:3
+ msgid "_Edit"
+ msgstr "_Editar"
+@@ -41,6 +89,18 @@ msgstr "_Editar"
+ msgid "_File"
+ msgstr "_Arquivo"
+ 
++#: ../data/ui/gnome_paint.ui.h:24
++msgid "_Flip horizontal"
++msgstr "Virar na _horizontal"
++
++#: ../data/ui/gnome_paint.ui.h:25
++msgid "_Flip/Rotate..."
++msgstr "_Virar/Rodar..."
++
++#: ../data/ui/gnome_paint.ui.h:26
++msgid "_Height"
++msgstr "_Altura"
++
+ #: ../data/ui/gnome_paint.ui.h:5
+ msgid "_Help"
+ msgstr "Aj_uda"
+@@ -49,6 +109,26 @@ msgstr "Aj_uda"
+ msgid "_Image"
+ msgstr "_Imagem"
+ 
++#: ../data/ui/gnome_paint.ui.h:29
++msgid "_Inches"
++msgstr "_Polegadas"
++
++#: ../data/ui/gnome_paint.ui.h:30
++msgid "_Invert Colors"
++msgstr "_Inverter as Cores"
++
++#: ../data/ui/gnome_paint.ui.h:31
++msgid "_Pixels"
++msgstr "_Pixels"
++
++#: ../data/ui/gnome_paint.ui.h:32
++msgid "_Rotate by angle"
++msgstr "_Rodar por ângulo"
++
++#: ../data/ui/gnome_paint.ui.h:33
++msgid "_Stretch/Skew..."
++msgstr "_Esticar/Encolher..."
++
+ #: ../data/ui/gnome_paint.ui.h:7
+ msgid "_View"
+ msgstr "_Visualizar"

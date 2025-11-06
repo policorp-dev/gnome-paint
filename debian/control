@@ -1,0 +1,23 @@
+Source: gnome-paint
+Section: graphics
+Priority: optional
+Maintainer: Edson Juliano Drosdeck <edson@policorp.com.br>
+Build-Depends:
+ debhelper-compat (= 13),
+ gettext,
+ intltool ( >= 0.35.0),
+ libgtk2.0-dev,
+Rules-Requires-Root: no
+Standards-Version: 4.6.2
+Homepage: https://launchpad.net/gnome-paint/
+
+Package: gnome-paint
+Architecture: any
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+Description: simple, easy to use paint program for GNOME
+ gnome-paint is a program inspired by MS Paint and designed for
+ GNOME (and maybe other) desktop environment. It could be used to
+ manipulate images in a very simple way. With a very friendly
+ user interface, gnome-paint is easy to get started for new users.
