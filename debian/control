@@ -10,6 +10,7 @@ Build-Depends:
 Rules-Requires-Root: no
 Standards-Version: 4.6.2
 Homepage: https://launchpad.net/gnome-paint/
+Vcs-Git: https://github.com/policorp-dev/gnome-paint.git
 
 Package: gnome-paint
 Architecture: any
